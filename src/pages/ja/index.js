@@ -32,7 +32,7 @@ function index() {
                 </div>
 
                 <div className={styles.category}>
-                    <Link href="/th/flower/">
+                    <Link href="/ja/flower/">
                         <Image src="/flower.jpg" width={100} height={100} />
                         <div className={styles.categoryContent}>
                             <h3>Flower</h3>
@@ -45,7 +45,7 @@ function index() {
                 </div>
 
                 <div className={styles.category}>
-                    <Link href="/th/mushroom/">
+                    <Link href="/ja/mushroom/">
                         <Image src="/mushroom.jpg" width={100} height={100} />
                         <div className={styles.categoryContent}>
                             <h3>Magic Mushroom</h3>
@@ -58,7 +58,7 @@ function index() {
                 </div>
 
                 <div className={styles.category}>
-                    <Link href="/th/gear/">
+                    <Link href="/ja/gear/">
                         <Image src="/gear.jpg" width={100} height={100} />
                         <div className={styles.categoryContent}>
                             <h3>Gear</h3>

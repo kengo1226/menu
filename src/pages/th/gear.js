@@ -18,7 +18,7 @@ function room() {
                     <span className={styles.border}></span>
                 </div>
 
-                <h2 className={styles.freeTxt}>ドイツ語で無料ですテキスト</h2>
+                <h2 className={styles.freeTxt}>タイ語で無料ですテキスト</h2>
             <div className={styles.gears}>
                 <div className={styles.gear}>
                 <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />

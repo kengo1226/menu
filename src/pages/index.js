@@ -58,8 +58,8 @@ export default function Home() {
                 </ul>
             </div>
             <div className="bottom">
-                {/* <img src="./images/aozora-logo.png" alt="aozora-logo">
-                <img src="./images/qr-img.png" alt="QR-img"> */}
+                <Image src="/aozora-logo.png" width={100} height={100} alt="aozora-logo" />
+                <Image src="/qr-img.png" width={100} height={100} alt="QR-img" />
             </div>
         </div>
       </main>
