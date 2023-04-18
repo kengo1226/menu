@@ -32,7 +32,7 @@ export default function Flower({products}) {
                     {product.fields.isSoldout ? 
                     <div className={`${styles.item} ${styles.soldout}`}>
                         <div className={styles.imgContainer}>
-                        <Image src={'https://' + product.fields.productImage.fields.file.url} width={100} height={100} alt="happyvalley_logo" />
+                        <Image src={product.fields.productImage.fields.file.url} width={100} height={100} alt="happyvalley_logo" />
                         </div>
                         <div className={styles.itemContent}>
                             <div className={styles.itemCategory}>
