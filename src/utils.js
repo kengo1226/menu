@@ -12,6 +12,7 @@ const getProducts = async () => {
     });
 
     return entries.items;
+    
 };
 
 export default getProducts;
