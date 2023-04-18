@@ -6,6 +6,16 @@ import getMushrooms from "../../content";
 // import components
 import Navigation from "../../components/navigation"
 
+const contentfulLoader = ({ src, quality, width }) => {
+    const params = [`w=${width}`];
+  
+    if (quality) {
+      params.push(`q=${quality}`);
+    }
+  
+    return `${src}?${params.join('&')}`;
+  };
+
 export default function Mushroom({products}) {
 
     console.log(products);
@@ -27,7 +37,7 @@ export default function Mushroom({products}) {
                 {products.map((product) => (
                     <div className={styles.item}>
                         <div className={styles.imgContainer}>
-                        <Image src={'https://' + product.fields.productImage.fields.file.url} width={100} height={100} alt="happyvalley_logo" />
+                        <Image src={'https://' + product.fields.productImage.fields.file.url} width={1920} height={1100} alt="mushroom" />
                         </div>
                         <div className={styles.itemContent}>
                             <div className={styles.itemCategory}>

@@ -62,7 +62,8 @@ export default function Flower({products}) {
                     :
                     <div className={styles.item}>
                         <div className={styles.imgContainer}>
-                        <Image src={'https://' + product.fields.productImage.fields.file.url} width={100} height={100} alt="happyvalley_logo" />
+                        {/* <Image src={'https://' + product.fields.productImage.fields.file.url} width={100} height={100} alt="happyvalley_logo" /> */}
+                        <Image src={'https://' + product.fields.productImage.fields.file.url} loader={contentfulLoader} width={1920} height={1100} />
                         </div>
                         <div className={styles.itemContent}>
                             <div className={styles.itemCategory}>
