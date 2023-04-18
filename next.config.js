@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [
-      'images.ctfassets.net',
+      'menu-mdqa2khoj-kengo1226.vercel.app'
     ],
   }
 }
