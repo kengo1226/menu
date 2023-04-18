@@ -37,7 +37,7 @@ export default function Mushroom({products}) {
                 {products.map((product) => (
                     <div className={styles.item}>
                         <div className={styles.imgContainer}>
-                        <Image src={'https://' + product.fields.productImage.fields.file.url} width={1920} height={1100} alt="mushroom" />
+                        <Image src={'https://' + product.fields.productImage.fields.file.url} loader={contentfulLoader} width={400} height={400} alt="mushroom" />
                         </div>
                         <div className={styles.itemContent}>
                             <div className={styles.itemCategory}>
