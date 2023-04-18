@@ -70,7 +70,7 @@ function index() {
                 </div>
 
                 <div className={styles.category}>
-                    <Link href="/de/room/">
+                    <Link href="/en/room/">
                         <Image src="/room.jpg" width={100} height={100} />
                         <div className={styles.categoryContent}>
                             <h3>Smoking Room</h3>

@@ -26,42 +26,42 @@ function room() {
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img2.jpg" layout='fill' objectFit='contain' />
                     <h2>Breaker Bong(Freeze Pipe)</h2>
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img3.jpg" layout='fill' objectFit='contain' />
                     <h2>Bong(later)</h2>
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img4.jpg" layout='fill' objectFit='contain' />
                     <h2>Freeze Pipe size s</h2>
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img5.jpg" layout='fill' objectFit='contain' />
                     <h2>Freeze Pipe</h2>
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img6.jpg" layout='fill' objectFit='contain' />
                     <h2>Hammer bong(Freeze Pipe)</h2>
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img7.jpg" layout='fill' objectFit='contain' />
                     <h2>Hammer bong(Freeze Pipe)</h2>
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img8.jpg" layout='fill' objectFit='contain' />
                     <h2>Stundglass Gravity Bong</h2>
                 </div>
 
                 <div className={styles.gear}>
-                <Image src="/gear/gear-img1.jpg" layout='fill' objectFit='contain' />
+                <Image src="/gear/gear-img9.jpg" layout='fill' objectFit='contain' />
                     <h2>Volcano(ARizer XQ2)</h2>
                 </div>
 

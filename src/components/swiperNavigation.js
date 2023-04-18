@@ -9,8 +9,8 @@ function swiperNavigation() {
   return (
     <Swiper 
     className={styles.categoryNav} 
-    spaceBetween={50} 
-    slidesPerView={4.2}
+    spaceBetween={10} 
+    slidesPerView={4}
     >
         <ul className={styles.swiperWrapper}>
             <SwiperSlide className={styles.swiperSlide}>
