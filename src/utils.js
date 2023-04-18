@@ -11,13 +11,7 @@ const getProducts = async () => {
         order: 'sys.createdAt',
     });
 
-    const mushrooms = await client.getEntries({
-        content_type: 'mushroom',
-        order: 'sys.createdAt',
-    });
-
     return entries.items;
-    return mushrooms.items;
 };
 
 export default getProducts;
